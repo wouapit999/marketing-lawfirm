@@ -1,0 +1,54 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Dependencies
+node_modules
+backend/node_modules
+frontend/node_modules
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist
+build
+.next
+out
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage
+.nyc_output
+test
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (optional - remove if you want docs)
+# *.md
+
+# Temporary files
+*.tmp
+.cache
+temp
+
+# Backend (if deploying frontend only)
+backend/**
